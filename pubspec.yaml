@@ -5,13 +5,14 @@ homepage: https://github.com/Ajoy-1704001/flutter_animated_reaction/blob/main/RE
 repository: https://github.com/Ajoy-1704001/flutter_animated_reaction
 
 environment:
-  sdk: '>=3.0.3 <4.0.0'
+  sdk: ">=3.0.3 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
+  audioplayers: ^6.1.0
   flutter:
     sdk: flutter
-  audioplayers: ^4.1.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -22,7 +23,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # To add assets to your package, add an assets section, like this:
   assets:
     - assets/images/
