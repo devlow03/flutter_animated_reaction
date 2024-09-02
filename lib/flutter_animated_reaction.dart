@@ -16,7 +16,7 @@ class AnimatedFlutterReaction {
       Color? backgroundColor,
       double? overlaySize,
       Size? iconSize}) {
-    RenderBox? box = key.currentContext!.findRenderObject() as RenderBox;
+    RenderBox? box = key.currentContext?.findRenderObject() as RenderBox;
     final Offset topLeft = box.size.topCenter(box.localToGlobal(Offset.zero));
     final Offset bottomRight =
         box.size.bottomCenter(box.localToGlobal(Offset.zero));
